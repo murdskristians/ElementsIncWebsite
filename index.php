@@ -19,6 +19,7 @@
         <h1>Elements Inc.</h1>
         <h2>Only one Earth</h2>
     </div>
+
     <div class="row-2-col-1-text">
         <p id="row-2-col-1-text-1">
             The urgent problem of clean water is inextricably linked with the problem of good wastewater treatment.
@@ -28,18 +29,24 @@
             wastewater treatment technology we achieve effective removal of hazardous elements from water
         </p>
     </div>
-    <div class="row-2-col-2-picture"></div>
+    <div class="row-2-col-2-picture" id="row-2-col-2-slideshow"></div>
+
     <div class="row-3-text">
+        <video autoplay loop muted>
+            <source src="/images/row-3-background.mp4" type="video/mp4">
+            Your browser does not support the video tag.
+        </video>
         <h2>
             The protection of surface waters from pollution is the most important task facing modern society.
         </h2>
     </div>
+
     <div class="row-4-col-1-text">
         <h2 id="row-4-col-1-text-1">
             Hazardous elements
         </h2>
         <p id="row-4-col-1-text-2">
-            Lead, chromium, cadmium, benzopyrene, and chlorine in the water cause cancer and nerve problems.
+            <strong>Lead, chromium, cadmium, benzopyrene,</strong> and <strong>chlorine</strong> in the water cause cancer and nerve problems.
         </p>
         <p id="row-4-col-1-text-3">
             Their effective and comprehensive removal is possible only with the use
@@ -47,7 +54,8 @@
         </p>
     </div>
     <div class="row-4-col-2-picture"></div>
-    <div class="row-5-col-1-picture"></div>
+
+    <div class="row-5-col-1-picture" id="row-5-col-1-slideshow"></div>
     <div class="row-5-col-2-text">
         <h2>
             Pollution of the world's oceans.
@@ -57,16 +65,22 @@
             ocean currents cause warming or cooling, and evaporated water forms clouds and causes precipitation.
         </p>
     </div>
+
     <div class="row-6-text">
+        <video autoplay loop muted>
+            <source src="/images/row-6-background.mp4" type="video/mp4">
+            Your browser does not support the video tag.
+        </video>
         <h2>
             System cleaning device
         </h2>
-        <ul>
+        <ul class="three-column-list">
             <li>Removal of organic residues, petroleum products</li>
             <li>Destroying pathogens, creating no-drain technology, purifying brines from desalination</li>
             <li>Removal of coarse particles, sand, grease</li>
         </ul>
     </div>
+
     <div class="row-7-col-1">
         <h2 id="row-7-col-1-text">Green Logistics</h2>
     </div>
@@ -78,6 +92,7 @@
             <li>Green Optimization</li>
         </ul>
     </div>
+
     <div class="row-8-col-1-picture"></div>
     <div class="row-8-col-2-text">
         <h3>
@@ -114,9 +129,10 @@
             </div>
         </div>
     </div>
+
     <div class="row-9-footer">
         <p id="footer-text-1">Email </p>
-        <p id="footer-text-2">info@elements-inc.eu</p>
+        <a id="footer-text-2" href="mailto:info@elements-inc.eu">info@elements-inc.eu</a>
         <p id="footer-text-3">© 2022 by Elements-Inc. All rights reserved.</p>
     </div>
 </div>
