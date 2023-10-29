@@ -191,9 +191,6 @@ body{
 
 .row-5-col-2-text {
     grid-area: row-5-col-2-text;
-    background-image: url("../images/row-5-col-2-background.jpeg");
-    background-repeat: no-repeat;
-    background-size: cover;
     color: white;
     font-size: 28px;
     display: flex;
@@ -202,8 +199,18 @@ body{
     flex-direction: column;
     padding: 112px 128px;
     position: relative;
+    overflow-y: hidden;
 }
 
+.row-5-col-2-text-background{
+    background-image: url("../images/row-5-col-2-background.jpeg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: absolute;
+    z-index: 0;
+    width: 100%;
+    height: 100%;
+}
 .row-5-col-2-text::before {
     content: "";
     position: absolute;

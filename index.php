@@ -57,6 +57,7 @@
 
     <div class="row-5-col-1-picture" id="row-5-col-1-slideshow"></div>
     <div class="row-5-col-2-text">
+        <div class="row-5-col-2-text-background rellax" data-rellax-speed="-10"></div>
         <h2>
             Pollution of the world's oceans.
         </h2>
@@ -142,6 +143,22 @@
 
 <script src="rellax.min.js?<?php echo microtime(); ?>"></script>
 <script>
-    var rellax = new Rellax('.rellax');
+    // let rellax = new Rellax('.rellax');
+
+    // let rellax2 = new Rellax('.rellax2', {
+    //     wrapper:'.row-5-col-2-text'
+    // });
+
+    // Also can pass in optional settings block
+    var rellax = new Rellax('.rellax', {
+        speed: -5,
+        center: true,
+        wrapper: null,
+        round: true,
+        vertical: true,
+        horizontal: false
+    });
+
+    rellax.refresh();
 </script>
 </body>
