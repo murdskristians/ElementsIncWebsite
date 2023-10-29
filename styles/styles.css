@@ -34,7 +34,10 @@ body{
     background-repeat: no-repeat;
     background-size: cover;
     color: white; /* Set your text color to white */
+    background-attachment: fixed; /* Fixed background attachment for parallax effect */
+    background-position: center; /* Center the background vertically */
 }
+
 
 .row-1-header::before {
     content: "";
