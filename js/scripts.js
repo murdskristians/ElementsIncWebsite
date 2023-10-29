@@ -1,3 +1,6 @@
+
+// Section for slideshow script
+
 // Defining all pictures for all slideshows
 let row_2_col_2_imageUrls = [
     "../images/row-2-col-2-background-1.webp",
@@ -37,11 +40,9 @@ function changeBackground() {
             row_2_col_2_slideshow.style.opacity = 1; // Fade in with new image
             row_5_col_1_slideshow.style.opacity = 1; // Fade in with new image
 
-        }, 200); // Shorter delay before fading in
-    }, 200); // Shorter delay before changing the image
+        }, 0); // Delay before fading in
+    }, 0); // Delay before changing the image
 }
 
-setInterval(changeBackground, 4000);
-
-// Initial background
+setInterval(changeBackground, 4000); // Delay before running the function
 changeBackground();

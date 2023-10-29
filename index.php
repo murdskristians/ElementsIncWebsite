@@ -9,15 +9,15 @@
     <meta charset="UTF-8">
     <title>Elements Inc</title>
     <link rel="stylesheet" href="/styles/styles.css">
-
+    <script src="https://cdn.jsdelivr.net/npm/simple-parallax-js@5.5.1/dist/simpleParallax.min.js"></script>
 </head>
 <body>
 
 
 <div class="container">
-    <div class="row-1-header">
-        <h1>Elements Inc.</h1>
-        <h2>Only one Earth</h2>
+    <div class="row-1-header rellax" data-rellax-speed="-10" id="row-1-header">
+        <h1 class="rellax" data-rellax-speed="1">Elements Inc.</h1>
+        <h2 class="rellax" data-rellax-speed="1">Only one Earth</h2>
     </div>
 
     <div class="row-2-col-1-text">
@@ -139,4 +139,9 @@
 
 
 <script src="js/scripts.js?<?php echo microtime(); ?>"></script>
+
+<script src="rellax.min.js?<?php echo microtime(); ?>"></script>
+<script>
+    var rellax = new Rellax('.rellax');
+</script>
 </body>

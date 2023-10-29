@@ -1,0 +1,7 @@
+{
+  "name": "ElementsIncWebsite",
+  "version": "1.0.0",
+  "dependencies": {
+    "rellax": "^1.12.1"
+  }
+}
