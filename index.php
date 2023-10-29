@@ -94,7 +94,7 @@
         </ul>
     </div>
 
-    <div class="row-8-col-1-picture"></div>
+    <div class="row-8-col-1-picture rellax" data-rellax-speed="-10"></div>
     <div class="row-8-col-2-text">
         <h3>
             Physico-chemical cleaning

@@ -243,6 +243,7 @@ body{
     position: relative;
     width: 100%;
     overflow: hidden;
+    z-index: 1;
 }
 
 .row-6-text::before {
@@ -298,6 +299,7 @@ body{
     font-weight: 300;
     background-position: right;
     background-color: black;
+    z-index: 1;
 }
 
 #row-7-col-1-text{
