@@ -92,21 +92,21 @@
     </ul>
 </div>
 
-<!--<div class="row_container_t2" style="height:50vh;">-->
-<!--    <div class="row-7-col-1">-->
-<!--        <h2 id="row-7-col-1-text">Green Logistics</h2>-->
-<!--    </div>-->
-<!--    <div class="row-7-col-2">-->
-<!--        <ul id="row-7-col-2-list">-->
-<!--            <li>Carbon Offsetting</li>-->
-<!--            <li>Clean Fuel & Technology</li>-->
-<!--            <li>Carbon Reports</li>-->
-<!--            <li>Green Optimization</li>-->
-<!--        </ul>-->
-<!--    </div>-->
-<!--</div>-->
+<div class="row_container_t2" style="height:50vh;">
+    <div class="row-7-col-1">
+        <h2 id="row-7-col-1-text">Green Logistics</h2>
+    </div>
+    <div class="row-7-col-2">
+        <ul id="row-7-col-2-list">
+            <li>Carbon Offsetting</li>
+            <li>Clean Fuel & Technology</li>
+            <li>Carbon Reports</li>
+            <li>Green Optimization</li>
+        </ul>
+    </div>
+</div>
 
-<div class="row_container_t2">
+<div class="row_container_t2" style="position:relative; z-index:-2;">
     <div class="row-8-col-1-picture rellax" data-rellax-speed="-10"></div>
     <div class="row-8-col-2-text">
         <h3>
