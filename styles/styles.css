@@ -198,11 +198,11 @@ body{
 .row-5-col-2-text {
     width:50%;
     color: white;
-    font-size: 2.5rem;
+    font-size: 2rem;
     display: flex;
     justify-content: center;
     flex-direction: column;
-    padding: 112px 128px;
+    padding-left:35px;
     position: relative;
     overflow-y: hidden;
 }
@@ -309,20 +309,20 @@ body{
 }
 
 #row-7-col-1-text{
-    font-family: fangsong, serif;
+    /*font-family: fangsong, serif;*/
     position: relative;
 }
 #row-7-col-1-text::before{
     content: "";
     position: absolute;
-    top: -54px;
-    right: 309px;
-    width: 100%;
+    top: -68px;
+    right: 330px;
+    width: 100px;
     height: 100px;
     background-image: url(/images/logo_leaf.webp);
     background-repeat: no-repeat;
-    transform: scaleX(-1);
-    background-size: 30%;
+    background-size: contain;
+    transform:rotateY(180deg);
 }
 .row-7-col-2 {
     width:50%;
