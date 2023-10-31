@@ -9,6 +9,7 @@
     <meta charset="UTF-8">
     <title>Elements Inc</title>
     <link rel="stylesheet" href="/styles/styles.css?<?php echo microtime();?>">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
     <script src="https://cdn.jsdelivr.net/npm/simple-parallax-js@5.5.1/dist/simpleParallax.min.js"></script>
 </head>
 <body>
@@ -68,7 +69,7 @@
     <div class="row-5-col-2-text">
         <div class="row-5-col-2-text-background rellax" data-rellax-speed="-10"></div>
         <h2>
-            Pollution of the world's oceans.
+            Pollution of the world's oceans
         </h2>
         <p>
             70% of our planet's surface is water. The ocean is a major factor in shaping Earth's climate:
@@ -92,7 +93,7 @@
     </ul>
 </div>
 
-<div class="row_container_t2" style="height:50vh;">
+<div class="row_container_t2 row-7">
     <div class="row-7-col-1">
         <h2 id="row-7-col-1-text">Green Logistics</h2>
     </div>
@@ -106,7 +107,7 @@
     </div>
 </div>
 
-<div class="row_container_t2" style="position:relative; z-index:-2;">
+<div class="row_container_t2 row-8">
     <div class="row-8-col-1-picture rellax" data-rellax-speed="-10"></div>
     <div class="row-8-col-2-text">
         <h3>
@@ -125,21 +126,21 @@
                 <h5>SUMPS</h5>
                 <hr class="thin-line">
                 <hr class="fat-line">
-                <p>radial,horizontal,lamellar</p>
+                <p>radial, horizontal, lamellar</p>
             </div>
 
             <div class="row-8-col-2-tabs">
-                <h5>SUMPS</h5>
+                <h5>SKIMMERS</h5>
                 <hr class="thin-line">
                 <hr class="fat-line">
-                <p>radial,horizontal,lamellar</p>
+                <p>oil, fuel oil, paraffin</p>
             </div>
 
             <div class="row-8-col-2-tabs">
-                <h5>SUMPS</h5>
+                <h5>PIGGING</h5>
                 <hr class="thin-line">
                 <hr class="fat-line">
-                <p>radial,horizontal,lamellar</p>
+                <p>ultrasonic, magnetic</p>
             </div>
         </div>
     </div>
@@ -148,7 +149,7 @@
 <div class="row-9-footer" style="padding-bottom:35px;">
     <p id="footer-text-1">Email </p>
     <a id="footer-text-2" href="mailto:info@elements-inc.eu">info@elements-inc.eu</a>
-    <p id="footer-text-3">© <?php echo date("Y");?> by Elements-Inc. All rights reserved.</p>
+    <p id="footer-text-3">© <?php echo date("Y");?> by Elements-Inc. <br> All rights reserved.</p>
 </div>
 
 
