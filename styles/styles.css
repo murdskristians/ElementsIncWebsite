@@ -16,6 +16,41 @@ body{
 .container {
     width:100%;
 }
+
+.header__languages{
+    z-index: 999;
+    position: absolute;
+    color: white;
+    background-color: rgb(57,57,57);
+    cursor: pointer;
+    right: 10%;
+    top: 10%;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+}
+
+.header__languages a{
+    font-size: 15px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 11px 65px 11px 11px;
+}
+.header__languages a img{
+    padding-right: 10px;
+    width: 51px;
+    height: 23px;
+}
+
+.header__languages a svg{
+    height: auto;
+    width: 12px;
+    fill: white;
+    position: relative;
+    left: 55%;
+}
+
 .row_container_t1{
     display:flex;
     width:100%;
@@ -42,7 +77,6 @@ body{
     background-position: center; /* Center the background vertically */
     z-index: 0;
 }
-
 
 .row-1-header::before {
     content: "";
