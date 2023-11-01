@@ -69,10 +69,10 @@ $translations = json_decode($main_page_translations, true);
                 <?php echo $translations[$lang]['row_4_text_1']; ?>
             </h1>
             <h2 id="row-4-col-1-text-2">
-                <?php echo $translations[$lang]['row_4_text_2_1']; ?>
-                <strong><?php echo $translations[$lang]['row_4_text_2_2']; ?></strong>
-                <?php echo $translations[$lang]['row_4_text_2_3']; ?>
-                <strong><?php echo $translations[$lang]['row_4_text_2_4']; ?></strong>
+                <strong><?php echo $translations[$lang]['row_4_text_2_1']; ?></strong>
+                <?php echo $translations[$lang]['row_4_text_2_2']; ?>
+                <strong><?php echo $translations[$lang]['row_4_text_2_3']; ?></strong>
+                <?php echo $translations[$lang]['row_4_text_2_4']; ?>
             </h2>
             <p id="row-4-col-1-text-3">
                 <?php echo $translations[$lang]['row_4_text_3']; ?>
@@ -82,7 +82,7 @@ $translations = json_decode($main_page_translations, true);
     <div class="row-4-col-2-picture"></div>
 </div>
 
-<div class="row_container_t2">
+<div class="row_container_t2 reverse">
     <div class="row-5-col-1-picture" id="row-5-col-1-slideshow"></div>
     <div class="row-5-col-2-text">
         <div class="row-5-col-2-text-background rellax" data-rellax-speed="-10"></div>
@@ -152,7 +152,7 @@ $translations = json_decode($main_page_translations, true);
             <div class="row-8-col-2-tabs">
                 <h5><?php echo $translations[$lang]['row_8_tab_4']; ?></h5>
                 <hr class="thin-line">
-                <hr class "fat-line">
+                <hr class="fat-line">
                 <p><?php echo $translations[$lang]['row_8_tab_4_text']; ?></p>
             </div>
         </div>

@@ -43,7 +43,7 @@ $main_page_translations = '{
         "row_2_text_2": "Dzięki szeroko zakrojonym badaniom laboratoryjnym, próbom pilotażowym i opracowaniu nowych zasad działania technologii głębokiego oczyszczania ścieków osiągamy skuteczne usuwanie niebezpiecznych pierwiastków z wody",
         "row_3_text": "Ochrona wód powierzchniowych przed zanieczyszczeniem jest najważniejszym zadaniem stojącym przed współczesnym społeczeństwem.",
         "row_4_text_1": "Niebezpieczne elementy",
-        "row_4_text_2_1": "Ołów, chrom, kadm, benzo(a)piren,",
+        "row_4_text_2_1": "Ołów, chrom, kadm, benzopiren,",
         "row_4_text_2_2": "i",
         "row_4_text_2_3": "chlor",
         "row_4_text_2_4": "w wodzie powodują raka i problemy neurologiczne.",
