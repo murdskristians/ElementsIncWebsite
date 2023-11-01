@@ -441,10 +441,11 @@ body{
     z-index: 1;
 }
 #footer-text-3{
-    font-size: 20px;
+    font-size: 1rem;
     font-weight: 300;
     padding-top: 16px;
     z-index: 1;
+    text-align:center;
 }
 .row_container_t2.row-7{
     height:100vh;
