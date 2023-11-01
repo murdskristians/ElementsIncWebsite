@@ -33,7 +33,7 @@ $translations = json_decode($main_page_translations, true);
     </a>
 </div>
 
-<div class="row-1-header rellax" data-rellax-speed="-10" id="row-1-header">
+<div class="row-1-header rellax2" data-rellax-speed="-10" id="row-1-header">
     <div class="row-1-header-text-container">
         <h1 class="rellax" data-rellax-speed="1"><?php echo $translations[$lang]['header_title']; ?></h1>
         <h2 class="rellax" data-rellax-speed="1"><?php echo $translations[$lang]['header_subtitle']; ?></h2>
@@ -65,17 +65,17 @@ $translations = json_decode($main_page_translations, true);
 <div class="row_container_t2" style="position:relative; background:white;">
     <div class="row-4-col-1-text" style="background:white;">
         <div style="width:80%; margin:auto;">
-            <h2 id="row-4-col-1-text-1">
+            <h1 id="row-4-col-1-text-1">
+                <?php echo $translations[$lang]['row_4_text_1']; ?>
+            </h1>
+            <h2 id="row-4-col-1-text-2">
                 <?php echo $translations[$lang]['row_4_text_2_1']; ?>
                 <strong><?php echo $translations[$lang]['row_4_text_2_2']; ?></strong>
                 <?php echo $translations[$lang]['row_4_text_2_3']; ?>
                 <strong><?php echo $translations[$lang]['row_4_text_2_4']; ?></strong>
             </h2>
-            <p id="row-4-col-1-text-2">
-                <?php echo $translations[$lang]['row_4_text_2_5']; ?>
-            </p>
             <p id="row-4-col-1-text-3">
-                <?php echo $translations[$lang]['row_4_text_2_6']; ?>
+                <?php echo $translations[$lang]['row_4_text_3']; ?>
             </p>
         </div>
     </div>
@@ -182,6 +182,15 @@ $translations = json_decode($main_page_translations, true);
     var rellax = new Rellax('.rellax', {
         speed: -5,
         center: true,
+        wrapper: null,
+        round: true,
+        vertical: true,
+        horizontal: false
+    });
+
+    var rellax2 = new Rellax('.rellax2', {
+        speed: -5,
+        center: false,
         wrapper: null,
         round: true,
         vertical: true,

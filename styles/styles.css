@@ -196,26 +196,28 @@ body{
 .row-4-col-1-text {
     display: flex;
     flex-direction: column;
-    font-size: 2.5rem;
     width:50%;
     justify-content: center;
+    line-height: 45px;
 }
 #row-4-col-1-text-1{
-    /*font-family: "Adobe Arabic", serif;*/
-    margin-bottom:35px;
-    font-size: 2.5rem;
-    font-weight: normal;
-    letter-spacing: 5px;
+    font-size: 3rem;
+    font-weight: 200;
+    padding-top: 39px;
+    padding-bottom: 71px;
 }
 #row-4-col-1-text-2{
-    padding-top: 30px;
-    min-width: 477px;
-    font-size: 1.5rem;
-    min-width:auto;
+    /*font-family: "Adobe Arabic", serif;*/
+    margin-bottom:35px;
+    font-size: 2rem;
+    font-weight: normal;
+    letter-spacing: 3px;
 }
+
 #row-4-col-1-text-3{
     padding-top: 30px;
-    font-size: 1.5rem;
+    font-size: 2rem;
+    letter-spacing: 3px;
 }
 .row-4-col-2-picture {
     background-image: url("../images/row-4-background.webp");
@@ -499,6 +501,12 @@ body{
 }
 
 @media screen and (max-width: 767px) {
+    .header__languages {
+        right: 50%;
+        top: 65%;
+        transform: translateX(50%);
+    }
+
     .row-1-header{
         background-attachment:unset;
         height: 100%;
