@@ -1,6 +1,12 @@
 <?php
+session_start();
+$lang = $_SESSION['lang'] ?? 'en';
 
+include $_SERVER['DOCUMENT_ROOT'] . '/translations/translations.php';
+global $main_page_translations;
 
+// Decode the JSON string into a PHP associative array
+$translations = json_decode($main_page_translations, true);
 ?>
 
 <!DOCTYPE html>
@@ -14,22 +20,33 @@
 </head>
 <body>
 
+<div class="header__languages">
+    <a class="header__inner-lang" id="en_btn">
+        <img src="/images/flag-GBR.png" alt="English">
+        EN
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 9.283 4.898"><path d="M4.641 4.898a.5.5 0 0 1-.343-.136L.158.864A.5.5 0 0 1 .842.136L4.64 3.712 8.44.136a.5.5 0 0 1 .686.729L4.984 4.762a.5.5 0 0 1-.343.136Z"></path></svg>
+    </a>
+    <a class="header__inner-lang" id="pl_btn">
+        <img src="/images/flag-POL.png" alt="Polski">
+        PL
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 9.283 4.898"><path d="M4.641 4.898a.5.5 0 0 1-.343-.136L.158.864A.5.5 0 0 1 .842.136L4.64 3.712 8.44.136a.5.5 0 0 1 .686.729L4.984 4.762a.5.5 0 0 1-.343.136Z"></path></svg>
+    </a>
+</div>
 
-<div class="row-1-header rellax" data-rellax-speed="-10" id="row-1-header">
+<div class="row-1-header rellax2" data-rellax-speed="-10" id="row-1-header">
     <div class="row-1-header-text-container">
-        <h1 class="rellax" data-rellax-speed="1">Elements Inc.</h1>
-        <h2 class="rellax" data-rellax-speed="1">Only one Earth</h2>
+        <h1 class="rellax" data-rellax-speed="1"><?php echo $translations[$lang]['header_title']; ?></h1>
+        <h2 class="rellax" data-rellax-speed="1"><?php echo $translations[$lang]['header_subtitle']; ?></h2>
     </div>
 </div>
 
 <div class="row_container_t1">
     <div class="row-2-col-1-text">
         <p id="row-2-col-1-text-1">
-            The urgent problem of clean water is inextricably linked with the problem of good wastewater treatment.
+            <?php echo $translations[$lang]['row_2_text_1']; ?>
         </p>
         <p id="row-2-col-1-text-2">
-            Through extensive laboratory tests, pilot trials and development of new principles of operation of deep
-            wastewater treatment technology we achieve effective removal of hazardous elements from water
+            <?php echo $translations[$lang]['row_2_text_2']; ?>
         </p>
     </div>
     <div class="row-2-col-2-picture" id="row-2-col-2-slideshow"></div>
@@ -41,23 +58,24 @@
         Your browser does not support the video tag.
     </video>
     <h2>
-        The protection of surface waters from pollution is the most important task facing modern society.
+        <?php echo $translations[$lang]['row_3_text']; ?>
     </h2>
 </div>
 
 <div class="row_container_t2" style="position:relative; background:white;">
     <div class="row-4-col-1-text" style="background:white;">
         <div style="width:80%; margin:auto;">
-            <h2 id="row-4-col-1-text-1">
-                Hazardous elements
+            <h1 id="row-4-col-1-text-1">
+                <?php echo $translations[$lang]['row_4_text_1']; ?>
+            </h1>
+            <h2 id="row-4-col-1-text-2">
+                <?php echo $translations[$lang]['row_4_text_2_1']; ?>
+                <strong><?php echo $translations[$lang]['row_4_text_2_2']; ?></strong>
+                <?php echo $translations[$lang]['row_4_text_2_3']; ?>
+                <strong><?php echo $translations[$lang]['row_4_text_2_4']; ?></strong>
             </h2>
-            <p id="row-4-col-1-text-2">
-                <strong>Lead, chromium, cadmium, benzopyrene,</strong> and <strong>chlorine</strong> in the water cause
-                cancer and nerve problems.
-            </p>
             <p id="row-4-col-1-text-3">
-                Their effective and comprehensive removal is possible only with the use
-                of advanced wastewater treatment technologies and modern equipment.
+                <?php echo $translations[$lang]['row_4_text_3']; ?>
             </p>
         </div>
     </div>
@@ -69,11 +87,10 @@
     <div class="row-5-col-2-text">
         <div class="row-5-col-2-text-background rellax" data-rellax-speed="-10"></div>
         <h2>
-            Pollution of the world's oceans
+            <?php echo $translations[$lang]['row_5_text']; ?>
         </h2>
         <p>
-            70% of our planet's surface is water. The ocean is a major factor in shaping Earth's climate:
-            ocean currents cause warming or cooling, and evaporated water forms clouds and causes precipitation.
+            <?php echo $translations[$lang]['row_5_text_2']; ?>
         </p>
     </div>
 </div>
@@ -84,25 +101,25 @@
         Your browser does not support the video tag.
     </video>
     <h2>
-        System cleaning device
+        <?php echo $translations[$lang]['row_6_text']; ?>
     </h2>
     <ul class="three-column-list">
-        <li>Removal of organic residues, petroleum products</li>
-        <li>Destroying pathogens, creating no-drain technology, purifying brines from desalination</li>
-        <li>Removal of coarse particles, sand, grease</li>
+        <li><?php echo $translations[$lang]['row_6_list_1']; ?></li>
+        <li><?php echo $translations[$lang]['row_6_list_2']; ?></li>
+        <li><?php echo $translations[$lang]['row_6_list_3']; ?></li>
     </ul>
 </div>
 
 <div class="row_container_t2 row-7">
     <div class="row-7-col-1">
-        <h2 id="row-7-col-1-text">Green Logistics</h2>
+        <h2 id="row-7-col-1-text"><?php echo $translations[$lang]['row_7_text']; ?></h2>
     </div>
     <div class="row-7-col-2">
         <ul id="row-7-col-2-list">
-            <li>Carbon Offsetting</li>
-            <li>Clean Fuel & Technology</li>
-            <li>Carbon Reports</li>
-            <li>Green Optimization</li>
+            <li><?php echo $translations[$lang]['row_7_list_1']; ?></li>
+            <li><?php echo $translations[$lang]['row_7_list_2']; ?></li>
+            <li><?php echo $translations[$lang]['row_7_list_3']; ?></li>
+            <li><?php echo $translations[$lang]['row_7_list_4']; ?></li>
         </ul>
     </div>
 </div>
@@ -111,49 +128,46 @@
     <div class="row-8-col-1-picture rellax" data-rellax-speed="-10"></div>
     <div class="row-8-col-2-text">
         <h3>
-            Physico-chemical cleaning
+            <?php echo $translations[$lang]['row_8_text']; ?>
         </h3>
         <div id="row-8-col-2-tab-container">
-
             <div class="row-8-col-2-tabs">
-                <h5>MOLE</h5>
+                <h5><?php echo $translations[$lang]['row_8_tab_1']; ?></h5>
                 <hr class="thin-line">
                 <hr class="fat-line">
-                <p>rakes, steps, drums</p>
+                <p><?php echo $translations[$lang]['row_8_tab_1_text']; ?></p>
             </div>
-
             <div class="row-8-col-2-tabs">
-                <h5>SUMPS</h5>
+                <h5><?php echo $translations[$lang]['row_8_tab_2']; ?></h5>
                 <hr class="thin-line">
                 <hr class="fat-line">
-                <p>radial, horizontal, lamellar</p>
+                <p><?php echo $translations[$lang]['row_8_tab_2_text']; ?></p>
             </div>
-
             <div class="row-8-col-2-tabs">
-                <h5>SKIMMERS</h5>
+                <h5><?php echo $translations[$lang]['row_8_tab_3']; ?></h5>
                 <hr class="thin-line">
                 <hr class="fat-line">
-                <p>oil, fuel oil, paraffin</p>
+                <p><?php echo $translations[$lang]['row_8_tab_3_text']; ?></p>
             </div>
-
             <div class="row-8-col-2-tabs">
-                <h5>PIGGING</h5>
+                <h5><?php echo $translations[$lang]['row_8_tab_4']; ?></h5>
                 <hr class="thin-line">
-                <hr class="fat-line">
-                <p>ultrasonic, magnetic</p>
+                <hr class "fat-line">
+                <p><?php echo $translations[$lang]['row_8_tab_4_text']; ?></p>
             </div>
         </div>
     </div>
 </div>
 
 <div class="row-9-footer" style="padding-bottom:35px;">
-    <p id="footer-text-1">Email </p>
-    <a id="footer-text-2" href="mailto:info@elements-inc.eu">info@elements-inc.eu</a>
-    <p id="footer-text-3">© <?php echo date("Y");?> by Elements-Inc. <br> All rights reserved.</p>
+    <p id="footer-text-1"><?php echo $translations[$lang]['row_9_text_1']; ?> </p>
+    <a id="footer-text-2" href="mailto:<?php echo $translations[$lang]['row_9_email']; ?>"><?php echo $translations[$lang]['row_9_email']; ?></a>
+    <p id="footer-text-3"><?php echo $translations[$lang]['footer_text']; ?></p>
 </div>
 
 
 
+<script src="js/languageChange.js?<?php echo microtime(); ?>"></script>
 <script src="js/scripts.js?<?php echo microtime(); ?>"></script>
 
 <script src="rellax.min.js?<?php echo microtime(); ?>"></script>
@@ -168,6 +182,15 @@
     var rellax = new Rellax('.rellax', {
         speed: -5,
         center: true,
+        wrapper: null,
+        round: true,
+        vertical: true,
+        horizontal: false
+    });
+
+    var rellax2 = new Rellax('.rellax2', {
+        speed: -5,
+        center: false,
         wrapper: null,
         round: true,
         vertical: true,
