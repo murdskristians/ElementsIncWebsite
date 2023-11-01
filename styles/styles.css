@@ -626,14 +626,18 @@ body{
     .row-5-col-2-text{
         padding-bottom:65px;
         padding-top:65px;
-        padding-right: 65px;
+        padding-left: 20px;
         line-height: 38px;
-
     }
 
     .row-5-col-2-text p{
         padding-top: 40px;
         line-height: 35px;
+        width: 80%;
+    }
+
+    .row-5-col-2-text h2{
+        width: 80%;
     }
 
     .row-5-col-2-text-background{
@@ -642,11 +646,13 @@ body{
     }
 
     .row-6-text {
-        height: 47vh;
+        height: 58vh;
     }
 
     .row-6-text h2{
         font-size:2rem;
+        width: 80%;
+        text-align: left;
     }
 
     .row-6-text h2, .row-6-text ul{
@@ -666,6 +672,7 @@ body{
 
     #row-7-col-2-list{
         top: 9%;
+        width: 60%;
     }
 
     .row-7-col-1{
