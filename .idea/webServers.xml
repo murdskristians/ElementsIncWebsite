@@ -2,10 +2,10 @@
 <project version="4">
   <component name="WebServers">
     <option name="servers">
-      <webServer id="c5639906-243b-4d9e-9eb7-8a141e5a642e" name="elements.shopdev.lv">
-        <fileTransfer rootFolder="/var/www/vhosts/shopdev.lv/elements.shopdev.lv" accessType="SFTP" host="plesk.novalsystems.com" port="22" sshConfigId="dffc00cd-67c3-42bf-8419-2977399b341b" sshConfig="root@plesk.novalsystems.com:22 password">
+      <webServer id="c5639906-243b-4d9e-9eb7-8a141e5a642e" name="elements-inc.eu">
+        <fileTransfer rootFolder="/var/www/vhosts/elements-inc.eu/httpdocs" accessType="SFTP" host="91.228.6.228" port="22" sshConfigId="68a72efe-5b04-498c-8914-47db487d9c00" sshConfig="root@91.228.6.228:22 password">
           <advancedOptions>
-            <advancedOptions dataProtectionLevel="Private" keepAliveTimeout="0" passiveMode="true" shareSSLContext="true" />
+            <advancedOptions dataProtectionLevel="Private" passiveMode="true" shareSSLContext="true" />
           </advancedOptions>
         </fileTransfer>
       </webServer>

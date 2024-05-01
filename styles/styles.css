@@ -243,7 +243,9 @@ body{
     background-size: cover;
     position: relative;
 }
-
+.row-5-col-1-picture.drones {
+    background-image: url("../images/drone_1.JPG");
+}
 .row-5-col-2-text {
     width:50%;
     color: white;
@@ -259,6 +261,16 @@ body{
 
 .row-5-col-2-text-background{
     background-image: url("../images/row-5-col-2-background.jpeg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: absolute;
+    z-index: 0;
+    left:0px;
+    width: 100%;
+    height: 100%;
+}
+.row-5-col-2-text-background.drones{
+    background-image: url("../images/drone_3.JPG");
     background-repeat: no-repeat;
     background-size: cover;
     position: absolute;
@@ -302,6 +314,18 @@ body{
     z-index: 1;
 }
 
+.row-6-text.drones{
+    background-image: url("../images/drone_1.JPG");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: top left;
+}
+.row-6-text.drones2{
+    background-image: url("../images/drone4.jpeg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
 .row-6-text::before {
     content: "";
     position: absolute;
@@ -313,6 +337,23 @@ body{
     z-index: 1;
 }
 
+.row-6-text.drones::before{
+    width:50%;
+    left:auto;
+    right:0px;
+    top:0px;
+}
+
+.row-6-text.drones2::before{
+    width:50%;
+    left:auto;
+    right:0px;
+    top:0px;
+}
+
+/*.row-6-text.drones2::before{*/
+/*    display: none;*/
+/*}*/
 .row-6-text h2, .row-6-text ul {
     position: relative;
     z-index: 1;
@@ -359,6 +400,12 @@ body{
     background-position: right;
     background-color: black;
     z-index: 1;
+}
+.row-7-col-1.drones {
+    background-image: url(../images/drone_2.JPG);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: top left;
 }
 
 #row-7-col-1-text{
@@ -495,6 +542,9 @@ body{
 .row_container_t2.row-7{
     height:100vh;
 }
+/*.row_container_t2.row-7.drones{*/
+/*    height:auto;*/
+/*}*/
 
 .row_container_t2.row-8{
     z-index: 4;
@@ -644,6 +694,10 @@ body{
         height:100vh;
         top:-100px;
     }
+    .row-5-col-2-text-background.drones{
+        height:100vh;
+        top:0px;
+    }
 
     .row-6-text {
         height: 58vh;
@@ -767,3 +821,18 @@ body{
 /*    background-attachment:unset;*/
 /*    height: 100%;*/
 /*}*/
+
+
+
+.list_items_wrap{
+    padding-left: 50px;
+    text-align: left !important;
+    top:0 !important;
+    padding-top:15px;
+}
+
+.list_items_wrap li{
+    font-size: 1.2rem;
+    list-style: none;
+    margin-bottom:15px;
+}
