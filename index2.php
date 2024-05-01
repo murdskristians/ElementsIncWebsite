@@ -194,6 +194,8 @@ $translations = json_decode($main_page_translations, true);
 
 
 <div class="row_container_t2 row-7 drones">
+	<div class="row-7-col-1 drones"></div>
+
 	<div class="row-5-col-2-text drones">
 		<div class="row-5-col-2-text-background rellax drones"
 		     data-rellax-speed="-10"></div>
@@ -205,55 +207,76 @@ $translations = json_decode($main_page_translations, true);
 			principles of working with drones in manufacturing
 		</p>
 	</div>
-	<div class="row-7-col-1 drones"></div>
 </div>
 
 
-<div class="row-6-text drones" style="height: 80vh;">
-	<div style="width: 100%; display:flex; justify-content: right;">
-		<div style="width: 50%">
-			<ul class="list_items_wrap">
-				<li>
-					<strong>1. Inventory Management:</strong> Drones can efficiently count and locate items in large warehouses or storage yards.
-					Using drones for inventory management reduces manual labor and speeds up the process.
-				</li>
-				<li>
-					<strong>2. Safety Inspections:</strong> Drones provide a safe way to inspect equipment in hazardous or hard-to-reach areas, reducing risks for workers and ensuring timely maintenance.
-				</li>
-				<li>
-					<strong>3. Mapping and Surveying:</strong> Equipped with high-resolution cameras and LIDAR, drones can quickly create detailed 3D maps of industrial sites, which are useful for planning and analysis.
-				</li>
-				<li>
-					<strong>4. Delivery and Transport:</strong> In large manufacturing facilities, drones can be used to transport lightweight items, spare parts, and tools between different sections, speeding up production lines.
-				</li>
-
-			</ul>
-		</div>
+<div class="element_section2">
+	<div class="element_section2_block_image"></div>
+	<div class="element_section2_block_text">
+		<ul class="list_items_wrap">
+			<li>
+				<strong>Inventory Management:</strong>
+				Drones can efficiently count and locate items in large warehouses or storage yards. Using drones for inventory
+				management reduces manual labor and speeds up the process.
+			</li>
+			<li>
+				<strong>Safety Inspections:</strong>
+				Drones provide a safe way to inspect equipment in hazardous or hard-to-reach areas, reducing risks for workers
+				and ensuring timely maintenance.
+			</li>
+			<li>
+				<strong>Mapping and Surveying:</strong>
+				Equipped with high-resolution cameras and LIDAR, drones can quickly create detailed 3D maps of industrial sites,
+				which are useful for planning and analysis.
+			</li>
+			<li>
+				<strong>Delivery and Transport:</strong>
+				In large manufacturing facilities, drones can be used to transport lightweight items, spare parts, and tools
+				between different sections, speeding up production lines.
+			</li>
+		</ul>
 	</div>
+
 </div>
 
-<div class="row-6-text drones2" style="height: 80vh;">
-	<div style="width: 100%; display:flex; justify-content: right;">
-		<div style="width: 50%">
-			<ul class="list_items_wrap">
-				<li>
-					<strong>1. Inventory Management:</strong> Drones can efficiently count and locate items in large warehouses or storage yards.
-					                                          Using drones for inventory management reduces manual labor and speeds up the process.
-				</li>
-				<li>
-					<strong>2. Safety Inspections:</strong> Drones provide a safe way to inspect equipment in hazardous or hard-to-reach areas, reducing risks for workers and ensuring timely maintenance.
-				</li>
-				<li>
-					<strong>3. Mapping and Surveying:</strong> Equipped with high-resolution cameras and LIDAR, drones can quickly create detailed 3D maps of industrial sites, which are useful for planning and analysis.
-				</li>
-				<li>
-					<strong>4. Delivery and Transport:</strong> In large manufacturing facilities, drones can be used to transport lightweight items, spare parts, and tools between different sections, speeding up production lines.
-				</li>
-
-			</ul>
-		</div>
+<div class="element_section3">
+	<div class="element_section3_block_text">
+		<ul class="list_items_wrap">
+			<li>
+				<strong>Monitoring and Surveillance:</strong>
+				Drones provide real-time monitoring of production lines, ensuring quality control and identifying potential
+				issues before they escalate.
+			</li>
+			<li>
+				<strong>Precision Agriculture:</strong>
+				In agriculture-based industries, drones help in monitoring crops, analyzing soil health, and optimizing
+				pesticide use to increase yield and efficiency.
+			</li>
+		</ul>
 	</div>
+	<div class="element_section3_block_image"></div>
 </div>
+
+<!--<div class="element_section3">-->
+<!--	<div class="element_section3_block_text">-->
+<!--		<ul class="list_items_wrap">-->
+<!--			<li>-->
+<!--				<strong>Monitoring and Surveillance:</strong>-->
+<!--				Drones provide real-time monitoring of production lines, ensuring quality control and identifying potential-->
+<!--				issues before they escalate.-->
+<!--			</li>-->
+<!--			<li>-->
+<!--				<strong>Precision Agriculture:</strong>-->
+<!--				In agriculture-based industries, drones help in monitoring crops, analyzing soil health, and optimizing-->
+<!--				pesticide use to increase yield and efficiency.-->
+<!--			</li>-->
+<!--		</ul>-->
+<!--		<div class="element_section3_2_block_image">-->
+<!---->
+<!--		</div>-->
+<!--	</div>-->
+<!--	<div class="element_section3_block_image"></div>-->
+<!--</div>-->
 
 <!--<div class="row_container_t2 reverse">-->
 <!--	<div class="row-5-col-1-picture drones"-->

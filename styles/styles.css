@@ -3,7 +3,7 @@ html{
     height: 100%;
 }
 body{
-    overflow-x: hidden;
+    overflow-x: hidden !important;
     height: 100%;
 }
 *{
@@ -15,6 +15,7 @@ body{
 
 .container {
     width:100%;
+    overflow-x: hidden !important;
 }
 
 .header__languages{
@@ -256,7 +257,7 @@ body{
     position: relative;
     overflow-y: hidden;
     padding: 0 130px;
-    min-width: 564px;
+    /*min-width: 564px;*/
 }
 
 .row-5-col-2-text-background{
@@ -674,6 +675,7 @@ body{
     }
 
     .row-5-col-2-text{
+        padding:0;
         padding-bottom:65px;
         padding-top:65px;
         padding-left: 20px;
@@ -829,10 +831,164 @@ body{
     text-align: left !important;
     top:0 !important;
     padding-top:15px;
+    padding-right:10px;
+}
+
+
+.element_section1{
+    height:80vh;
+    position: relative;
+    width: 100%;
+    overflow: hidden;
+    z-index: 1;
+    background-image: url("../images/drone_1.JPG");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: top left;
+}
+
+.element_section1::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.6); /* Add a semi-transparent black overlay */
+    z-index: 1;
+}
+
+.element_section2{
+    position: relative;
+    width: 100%;
+    overflow: hidden;
+    z-index: 1;
+    display: flex;
+    min-height: 75vh;
+}
+
+.element_section3{
+    position: relative;
+    width: 100%;
+    overflow: hidden;
+    z-index: 1;
+    display: flex;
+    min-height:75vh;
+}
+
+/*.element_section2::before {*/
+/*    content: "";*/
+/*    position: absolute;*/
+/*    top: 0;*/
+/*    left: 0;*/
+/*    width: 100%;*/
+/*    height: 100%;*/
+/*    background: rgba(0, 0, 0, 0.6); !* Add a semi-transparent black overlay *!*/
+/*    z-index: 1;*/
+/*}*/
+.element_section2_block_image{
+    width:100%;
+    background-image: url("../images/drone_1.JPG");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: top left;
+    background-attachment: fixed;
+}
+.element_section3_block_image{
+    width:100%;
+    background-image: url("../images/drone4.jpeg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: top left;
+    background-attachment: fixed;
+}
+.element_section3_2_block_image{
+    background-image: url(../images/drone4.jpeg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: top left;
+    flex: 1;
+    width: 100%;
+}
+.element_section2_block_text{
+    width:50%;
+    height:100%;
+    background-color: black;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 1rem;
+    font-weight: 300;
+    background-position: right;
+    background-color: black;
+    z-index: 1;
+
+    position: absolute;
+    background: rgba(0, 0, 0, 0.7);
+    right: 0;
+    color: white;
+}
+
+.element_section3_block_text{
+    width:50%;
+    background-color: black;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 31px;
+    font-weight: 300;
+    background-position: right;
+    background-color: black;
+    z-index: 1;
+    flex-direction: column;
+    position: absolute;
+    background: rgba(0, 0, 0, 0.7);
+    right: 0;
+    color: white;
 }
 
 .list_items_wrap li{
-    font-size: 1.2rem;
-    list-style: none;
+    font-size: 1.1rem;
     margin-bottom:15px;
+}
+.row-5-col-2-text{
+    padding:15px;
+}
+@media screen and (max-width: 767px) {
+    .list_items_wrap li{
+        font-size: 1.2rem;
+        margin-bottom:15px;
+    }
+    .element_section2{
+        flex-direction: column;
+    }
+    .element_section2_block_image{
+        height:65vh;
+        background-attachment: unset;
+    }
+    .element_section2_block_text{
+        width:100%;
+        position: static;
+        background:black;
+    }
+
+    .element_section3{
+        flex-direction: column-reverse;
+    }
+    .element_section3_block_image{
+        height:65vh;
+        background-attachment: unset;
+    }
+    .element_section3_block_text{
+        width:100%;
+        position: static;
+        background:black;
+    }
+    .row_container_t2.row-7.drones {
+        flex-direction: column-reverse;
+    }
+
+
 }
