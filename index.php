@@ -22,7 +22,7 @@ $translations = json_decode($main_page_translations, true);
 </head>
 <body>
 
-<div class="header__languages">
+<div class="header__languages" style="overflow-x: hidden !important;">
 	<a class="header__inner-lang"
 	   id="en_btn">
 		<img src="/images/flag-GBR.png"
@@ -47,7 +47,7 @@ $translations = json_decode($main_page_translations, true);
 
 <div class="row-1-header rellax2"
      data-rellax-speed="-10"
-     id="row-1-header">
+     id="row-1-header" style="overflow-x: hidden !important;">
 	<div class="row-1-header-text-container">
 		<h1 class="rellax"
 		    data-rellax-speed="1"><?php echo $translations[$lang]['header_title']; ?></h1>

@@ -965,7 +965,7 @@ body{
         flex-direction: column;
     }
     .element_section2_block_image{
-        height:65vh;
+        height:290px;
         background-attachment: unset;
     }
     .element_section2_block_text{
@@ -978,7 +978,7 @@ body{
         flex-direction: column-reverse;
     }
     .element_section3_block_image{
-        height:65vh;
+        height:290px;
         background-attachment: unset;
     }
     .element_section3_block_text{
