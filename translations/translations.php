@@ -34,7 +34,7 @@ $main_page_translations = '{
         "row_8_tab_4_text": "ultrasonic,magnetic",
         "row_9_text_1": "Email",
         "row_9_email": "info@elements-inc.eu",
-        "footer_text": "©2923 by Elements-Inc. All rights reserved."
+        "footer_text": "©2024 by Elements-Inc. All rights reserved."
     },
     "pl": {
         "header_title": "Elements Inc.",
