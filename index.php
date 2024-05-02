@@ -215,24 +215,16 @@ $translations = json_decode($main_page_translations, true);
 	<div class="element_section2_block_text">
 		<ul class="list_items_wrap">
 			<li>
-				<strong>Inventory Management:</strong>
-				Drones can efficiently count and locate items in large warehouses or storage yards. Using drones for inventory
-				management reduces manual labor and speeds up the process.
+          <?php echo $translations[$lang]['elements2_text1']; ?>
 			</li>
 			<li>
-				<strong>Safety Inspections:</strong>
-				Drones provide a safe way to inspect equipment in hazardous or hard-to-reach areas, reducing risks for workers
-				and ensuring timely maintenance.
+          <?php echo $translations[$lang]['elements2_text2']; ?>
 			</li>
 			<li>
-				<strong>Mapping and Surveying:</strong>
-				Equipped with high-resolution cameras and LIDAR, drones can quickly create detailed 3D maps of industrial sites,
-				which are useful for planning and analysis.
+					<?php echo $translations[$lang]['elements2_text3']; ?>
 			</li>
 			<li>
-				<strong>Delivery and Transport:</strong>
-				In large manufacturing facilities, drones can be used to transport lightweight items, spare parts, and tools
-				between different sections, speeding up production lines.
+					<?php echo $translations[$lang]['elements2_text4']; ?>
 			</li>
 		</ul>
 	</div>
@@ -243,14 +235,10 @@ $translations = json_decode($main_page_translations, true);
 	<div class="element_section3_block_text">
 		<ul class="list_items_wrap">
 			<li>
-				<strong>Monitoring and Surveillance:</strong>
-				Drones provide real-time monitoring of production lines, ensuring quality control and identifying potential
-				issues before they escalate.
+          <?php echo $translations[$lang]['elements2_text5']; ?>
 			</li>
 			<li>
-				<strong>Precision Agriculture:</strong>
-				In agriculture-based industries, drones help in monitoring crops, analyzing soil health, and optimizing
-				pesticide use to increase yield and efficiency.
+          <?php echo $translations[$lang]['elements2_text6']; ?>
 			</li>
 		</ul>
 	</div>

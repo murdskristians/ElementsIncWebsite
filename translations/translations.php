@@ -34,7 +34,13 @@ $main_page_translations = '{
         "row_8_tab_4_text": "ultrasonic,magnetic",
         "row_9_text_1": "Email",
         "row_9_email": "info@elements-inc.eu",
-        "footer_text": "©2024 by Elements-Inc. All rights reserved."
+        "footer_text": "©2024 by Elements-Inc. All rights reserved.",
+        "elements2_text1": "<strong>Inventory Management:</strong> Drones can efficiently count and locate items in large warehouses or storage yards. Using drones for inventory management reduces manual labor and speeds up the process.",
+        "elements2_text2": "<strong>Safety Inspections:</strong> Drones provide a safe way to inspect equipment in hazardous or hard-to-reach areas, reducing risks for workers and ensuring timely maintenance.",
+        "elements2_text3": "<strong>Mapping and Surveying:</strong> Equipped with high-resolution cameras and LIDAR, drones can quickly create detailed 3D maps of industrial sites, which are useful for planning and analysis.",
+        "elements2_text4": "<strong>Delivery and Transport:</strong> In large manufacturing facilities, drones can be used to transport lightweight items, spare parts, and tools between different sections, speeding up production lines.",
+        "elements2_text5": "<strong>Monitoring and Surveillance:</strong> Drones provide real-time monitoring of production lines, ensuring quality control and identifying potential issues before they escalate.",
+        "elements2_text6": "<strong>Precision Agriculture:</strong> In agriculture-based industries, drones help in monitoring crops, analyzing soil health, and optimizing pesticide use to increase yield and efficiency."
     },
     "pl": {
         "header_title": "Elements Inc.",
@@ -70,7 +76,13 @@ $main_page_translations = '{
         "row_8_tab_4_text": "ultradźwiękowy,magnetyczny",
         "row_9_text_1": "E-mail",
         "row_9_email": "info@elements-inc.eu",
-        "footer_text": "© 2022 by Elements-Inc. All rights reserved."
+        "footer_text": "© 2024 by Elements-Inc. All rights reserved.",
+        "elements2_text1": "<strong>Zarządzanie zapasami:</strong> Drony mogą skutecznie zliczać i lokalizować przedmioty w dużych magazynach lub na placach składowych. Korzystanie z dronów do zarządzania zapasami redukuje pracę ręczną i przyspiesza proces.",
+        "elements2_text2": "<strong>Inspekcje bezpieczeństwa:</strong> Drony mogą skutecznie zliczać i lokalizować przedmioty w dużych magazynach lub na placach składowych. Korzystanie z dronów do zarządzania zapasami redukuje pracę ręczną i przyspiesza proces.",
+        "elements2_text3": "<strong>Mapowanie i pomiary:</strong> Drony mogą skutecznie zliczać i lokalizować przedmioty w dużych magazynach lub na placach składowych. Korzystanie z dronów do zarządzania zapasami redukuje pracę ręczną i przyspiesza proces.",
+        "elements2_text4": "<strong>Dostawa i transport:</strong> W dużych zakładach produkcyjnych drony mogą być używane do transportu lekkich przedmiotów, części zamiennych i narzędzi między różnymi sekcjami, przyspieszając linie produkcyjne.",
+        "elements2_text5": "<strong>Monitorowanie i nadzór: </strong> Drony zapewniają monitoring w czasie rzeczywistym linii produkcyjnych, zapewniając kontrolę jakości i identyfikując potencjalne problemy zanim się nasilą.",
+        "elements2_text6": "<strong>Precyzyjne rolnictwo:</strong> W przemyśle rolniczym drony pomagają monitorować uprawy, analizować zdrowie gleby i optymalizować użycie pestycydów, aby zwiększyć plony i efektywność."
     }
 }';
 
