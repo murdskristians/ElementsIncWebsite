@@ -40,7 +40,9 @@ $main_page_translations = '{
         "elements2_text3": "<strong>Mapping and Surveying:</strong> Equipped with high-resolution cameras and LIDAR, drones can quickly create detailed 3D maps of industrial sites, which are useful for planning and analysis.",
         "elements2_text4": "<strong>Delivery and Transport:</strong> In large manufacturing facilities, drones can be used to transport lightweight items, spare parts, and tools between different sections, speeding up production lines.",
         "elements2_text5": "<strong>Monitoring and Surveillance:</strong> Drones provide real-time monitoring of production lines, ensuring quality control and identifying potential issues before they escalate.",
-        "elements2_text6": "<strong>Precision Agriculture:</strong> In agriculture-based industries, drones help in monitoring crops, analyzing soil health, and optimizing pesticide use to increase yield and efficiency."
+        "elements2_text6": "<strong>Precision Agriculture:</strong> In agriculture-based industries, drones help in monitoring crops, analyzing soil health, and optimizing pesticide use to increase yield and efficiency.",
+        "elements1_text1": "Increase process efficiency with drones",
+        "elements1_text2": "For wholesale supplies of DJI and Autel drones, complete with images, and prices upon request, here are some principles of working with drones in manufacturing"
     },
     "pl": {
         "header_title": "Elements Inc.",
@@ -82,7 +84,9 @@ $main_page_translations = '{
         "elements2_text3": "<strong>Mapowanie i pomiary:</strong> Drony mogą skutecznie zliczać i lokalizować przedmioty w dużych magazynach lub na placach składowych. Korzystanie z dronów do zarządzania zapasami redukuje pracę ręczną i przyspiesza proces.",
         "elements2_text4": "<strong>Dostawa i transport:</strong> W dużych zakładach produkcyjnych drony mogą być używane do transportu lekkich przedmiotów, części zamiennych i narzędzi między różnymi sekcjami, przyspieszając linie produkcyjne.",
         "elements2_text5": "<strong>Monitorowanie i nadzór: </strong> Drony zapewniają monitoring w czasie rzeczywistym linii produkcyjnych, zapewniając kontrolę jakości i identyfikując potencjalne problemy zanim się nasilą.",
-        "elements2_text6": "<strong>Precyzyjne rolnictwo:</strong> W przemyśle rolniczym drony pomagają monitorować uprawy, analizować zdrowie gleby i optymalizować użycie pestycydów, aby zwiększyć plony i efektywność."
+        "elements2_text6": "<strong>Precyzyjne rolnictwo:</strong> W przemyśle rolniczym drony pomagają monitorować uprawy, analizować zdrowie gleby i optymalizować użycie pestycydów, aby zwiększyć plony i efektywność.",
+        "elements1_text1": "Zwiększ efektywność procesu dzięki dronom",
+        "elements1_text2": "W sprawie hurtowych dostaw dronów DJI i Autel, wraz z obrazami i cenami na życzenie, oto kilka zasad dotyczących pracy z dronami w produkcji."
     }
 }';
 

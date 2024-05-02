@@ -963,6 +963,7 @@ body{
     }
     .element_section2{
         flex-direction: column;
+        min-height: unset;
     }
     .element_section2_block_image{
         height:290px;
@@ -976,6 +977,7 @@ body{
 
     .element_section3{
         flex-direction: column-reverse;
+        min-height: unset;
     }
     .element_section3_block_image{
         height:290px;
@@ -997,4 +999,33 @@ body{
     z-index: 9;
     font-size: 0.8rem;
     margin-top: 10px;
+}
+@media screen and (min-width: 980px) {
+    .list_items_wrap li{
+        font-size: 1.3rem;
+        margin-bottom:15px;
+    }
+
+}
+@media screen and (min-width: 1220px) {
+    .list_items_wrap li{
+        font-size: 1.4rem;
+        margin-bottom:15px;
+    }
+
+}
+
+@media screen and (min-width: 1420px) {
+    .list_items_wrap li{
+        font-size: 1.5rem;
+        margin-bottom:15px;
+    }
+
+}
+@media screen and (min-width: 1650px) {
+    .list_items_wrap li{
+        font-size: 1.6rem;
+        margin-bottom:15px;
+    }
+
 }

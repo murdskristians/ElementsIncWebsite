@@ -200,11 +200,10 @@ $translations = json_decode($main_page_translations, true);
 		<div class="row-5-col-2-text-background rellax drones"
 		     data-rellax-speed="-10"></div>
 		<h2>
-			Increase process efficiency with drones
+        <?php echo $translations[$lang]['elements1_text1']; ?>
 		</h2>
 		<p>
-			For wholesale supplies of DJI and Autel drones, complete with images, and prices upon request, here are some
-			principles of working with drones in manufacturing
+        <?php echo $translations[$lang]['elements1_text2']; ?>
 		</p>
 	</div>
 </div>
