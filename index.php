@@ -45,8 +45,7 @@ $translations = json_decode($main_page_translations, true);
 	</a>
 </div>
 
-<div class="row-1-header rellax2"
-     data-rellax-speed="-10"
+<div class="row-1-header"
      id="row-1-header" style="overflow-x: hidden !important;">
 	<div class="row-1-header-text-container">
 		<h1 class="rellax"
@@ -272,25 +271,10 @@ $translations = json_decode($main_page_translations, true);
 
 <script src="rellax.min.js?<?php echo microtime(); ?>"></script>
 <script>
-    // let rellax = new Rellax('.rellax');
 
-    // let rellax2 = new Rellax('.rellax2', {
-    //     wrapper:'.row-5-col-2-text'
-    // });
-
-    // Also can pass in optional settings block
     var rellax = new Rellax('.rellax', {
         speed: -5,
         center: true,
-        wrapper: null,
-        round: true,
-        vertical: true,
-        horizontal: false
-    });
-
-    var rellax2 = new Rellax('.rellax2', {
-        speed: -5,
-        center: false,
         wrapper: null,
         round: true,
         vertical: true,
